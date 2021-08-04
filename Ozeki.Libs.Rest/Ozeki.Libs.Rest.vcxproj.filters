@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Tools">
+      <UniqueIdentifier>{5c5ad773-f050-4e22-8add-ab9a4b69d1ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Result">
+      <UniqueIdentifier>{9d1a7ac4-6f9e-4e29-ab79-565d9e41d06c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Result">
+      <UniqueIdentifier>{d0cb0b88-69cb-46e7-b0db-c85abb7c43ff}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Configuration.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Message.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MessageApi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Ozeki.Libs.Rest.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="localdatetime.h">
+      <Filter>Header Files\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="DeliveryStatus.h">
+      <Filter>Header Files\Result</Filter>
+    </ClInclude>
+    <ClInclude Include="MessageSendResult.h">
+      <Filter>Header Files\Result</Filter>
+    </ClInclude>
+    <ClInclude Include="MessageSendResults.h">
+      <Filter>Header Files\Result</Filter>
+    </ClInclude>
+    <ClInclude Include="uuid.h">
+      <Filter>Header Files\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Folder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HTTPRequest.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MessageReceiveResult.h">
+      <Filter>Header Files\Result</Filter>
+    </ClInclude>
+    <ClInclude Include="MessageDeleteResult.h">
+      <Filter>Header Files\Result</Filter>
+    </ClInclude>
+    <ClInclude Include="MessageMarkResult.h">
+      <Filter>Header Files\Result</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Configuration.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Message.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MessageApi.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MessageSendResult.cpp">
+      <Filter>Source Files\Result</Filter>
+    </ClCompile>
+    <ClCompile Include="MessageSendResults.cpp">
+      <Filter>Source Files\Result</Filter>
+    </ClCompile>
+    <ClCompile Include="Folder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MessageReceiveResult.cpp">
+      <Filter>Source Files\Result</Filter>
+    </ClCompile>
+    <ClCompile Include="MessageDeleteResult.cpp">
+      <Filter>Source Files\Result</Filter>
+    </ClCompile>
+    <ClCompile Include="MessageMarkResult.cpp">
+      <Filter>Source Files\Result</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
